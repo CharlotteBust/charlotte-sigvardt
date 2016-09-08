@@ -1,0 +1,543 @@
+
+/* MAIN RIBBON CONTENT */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	min-width: 1150px;
+}
+
+#content {
+	width: 100%;
+}
+
+#ribbon-1 {
+	width: 100%;
+	height: 640px;
+	background-image: url(media/texture.png)
+}
+
+#ribbon-2 {
+	width: 100%;
+	height: 640px;
+	background-color: #F4F4F4;
+}
+
+#ribbon-3 {
+	width: 100%;
+	height: 640px;
+	background-color: #2A363B;
+}
+
+#ribbon-4 {
+	width: 100%;
+	height: 640px;
+	background-image: url(media/texture.png)
+}
+
+#ribbon-5 {
+	width: 100%;
+	height: 640px;
+	background-color: #2A363B;
+}
+
+.ribbon-content {
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ribbon-1-text {
+	width: 600px;
+	height: 100%;
+	float: left;
+	padding-top: 120px;
+}
+
+#ribbon-1-image {
+	width: 370px;
+	height: 100%;
+	float: right;
+	padding-top: 40px;
+}
+
+h1 {
+	font-family: Oswald;
+	font-weight: 700;
+	font-size: 4.25em;
+	margin-bottom: 8px;
+	color: #040404;
+
+}
+
+#ribbon-1-text li {
+	font-family: Oswald;
+	font-size: 1.1em;
+	display: inline-block;
+	color: #4E7B84;
+}
+
+#buzzword {
+	font-weight: 300;
+}
+
+#seperator {
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+}
+
+#ribbon-1-text ul {
+	padding-left: 0px;
+	padding-bottom: 8px;
+}
+	
+/* ------------------------------ */
+/* ------ RIBBON: My work ------- */
+/* ------------------------------ */
+
+#ribbon-my-work {
+	width: 100%;
+	height: 1550px;
+	background-color: #2A363B;
+}
+
+
+.ribbon-my-work-text {
+	color: #F6F6F6;
+	font-weight: regular;
+	font-size: 1.2em;
+	padding-top: 100px;
+	padding-left: 0px;
+	font-weight: 400;
+	line-height: 125%;
+}
+
+
+.ribbon-my-work-text a {
+	color: #DFDFDF;
+	font-weight: regular;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.ribbon-my-worktext a:hover {
+	color: #5DBCAD;
+}
+
+#my-work-image-left {
+	margin: 0;
+	float: left;
+	clear:left;
+	display: inline-block;
+	align:left;
+	width: 55%;
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 29px 0px #23292b;
+	-moz-box-shadow: 0px 0px 29px 0px #23292b;
+	box-shadow: 0px 0px 29px 0px #23292b;
+}
+
+#my-work-image-right {
+	margin: 0;
+	float: right;
+	clear: right;
+	display: inline-block;
+	align:right;
+	width: 37.6%;
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 29px 0px #23292b;
+	-moz-box-shadow: 0px 0px 29px 0px #23292b;
+	box-shadow: 0px 0px 29px 0px #23292b;
+}
+
+
+/* ------------------------------ */
+/* ----- SOCIAL MEDIA ICONS ----- */
+/* ------------------------------ */
+
+#random-unsuspecting-element1 {
+	background: url("media/icon-f-hover.png") no-repeat -9999px -9999px; 
+	width:0;
+	height:0; 
+}
+
+#random-unsuspecting-element2 {
+	background: url("media/icon-insta-hover.png") no-repeat -9999px -9999px; 
+	width:0;
+	height:0; 
+}
+
+#random-unsuspecting-element3 {
+	background: url("media/icon-in-hover.png") no-repeat -9999px -9999px; 
+	width:0;
+	height:0; 
+}
+
+#random-unsuspecting-element4 {
+	background: url("media/icon-mail-hover.png") no-repeat -9999px -9999px; 
+	width:0;
+	height:0; 
+}
+
+#random-unsuspecting-element5 {
+	background: url("media/icon-mobile-hover.png") no-repeat -9999px -9999px; 
+	width:0;
+	height:0; 
+}
+
+#facebook-icon {
+	width: 40px;
+	height: 40px;
+	background: url("media/icon-f.png") no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 7px 0px 3px;
+	margin-left: 0px;
+	float: left;
+}
+
+#arrow_facebook {
+	content: url("media/arrow-facebook.png");
+	display: none;
+}
+
+#arrow_instagram {
+	content: url("media/arrow-instagram.png");
+	display: none;
+}
+
+#arrow_linkedin {
+	content: url("media/arrow-linkedin.png");
+	display: none;
+}
+
+#arrow_email {
+	content: url("media/arrow-email.png");
+	display: none;
+}
+
+#arrow_phone {
+	content: url("media/arrow-phone.png");
+	display: none;
+}
+
+#facebook-icon:hover #arrow_facebook{
+	display: inline;
+}
+
+#instagram-icon:hover #arrow_instagram{
+	display: inline;
+}
+
+#linkedin-icon:hover #arrow_linkedin{
+	display: inline;
+}
+
+#mail-icon:hover #arrow_email {
+	display: inline;
+}
+
+#mobile-icon:hover #arrow_phone {
+	display: inline;
+}
+
+#facebook-icon:hover {
+	background-image: url("media/icon-f-hover.png");
+}
+
+#instagram-icon {
+	width: 40px;
+	height: 40px;
+	background: url("media/icon-insta.png") no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 7px 0px 3px;
+	float: left;
+}
+
+#instagram-icon:hover {
+	background-image: url("media/icon-insta-hover.png");
+}
+
+#linkedin-icon {
+	width: 40px;
+	height: 40px;
+	background: url("media/icon-in.png") no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 7px 0px 3px;
+	float: left;
+}
+
+#linkedin-icon:hover {
+	background-image: url("media/icon-in-hover.png");
+}
+
+#mail-icon {
+	width: 40px;
+	height: 40px;
+	background: url("media/icon-mail.png") no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 7px 0px 3px;
+	float: left;
+}
+
+#mail-icon:hover {
+	background-image: url("media/icon-mail-hover.png");
+}
+
+#mobile-icon {
+	width: 40px;
+	height: 40px;
+	background: url("media/icon-mobile.png") no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 7px 0px 3px;
+	float: left;
+}
+
+#mobile-icon:hover {
+	background-image: url("media/icon-mobile-hover.png");
+}
+
+#arrow-fb {
+	padding-top: 50px;
+}
+
+
+
+/* RIBBONS */
+
+#ribbon-1-text a {
+	text-decoration: none;
+}
+
+#ribbon-2 h2 {
+	margin-top: 0px;
+	font-size: 1.75em;
+}
+
+#ribbon-2-title {
+	margin-top: 0px;
+	padding-top: 120px;
+	font-size: 1.75em;
+}
+
+#ribbon-2 p {
+	font-size: 1.3em;
+	font-weight: 400;
+	line-height: 125%;
+}
+
+
+#ribbon-3-image {
+	width: 585px;
+	float: left;
+	}
+
+#ribbon-3-text {
+	color: #E9EFF0;
+	font-weight: regular;
+	font-size: 1.35em;
+	float: right;
+	width: 380px;
+	padding-top: 100px;
+	padding-left: 35px;
+	line-height: 125%;
+}
+
+#ribbon-3-text span {
+	color: #B8CACE;
+	font-weight: bold;
+}
+
+#ribbon-content-3 {
+	background-image: url("media/air-quotes.png");
+}
+
+#ribbon-4 h2 {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	padding-top: 110px;
+	font-size: 1.75em;
+}
+
+#ribbon-4 p {
+	text-align: right;
+	font-weight: 800;
+	font-size: 1.35em;
+}
+
+#ribbon-4 p a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.ribbon-5-text {
+	color: #F6F6F6;
+	font-weight: regular;
+	font-size: 1.2em;
+	padding-top: 100px;
+	padding-left: 0px;
+	font-weight: 400;
+	line-height: 125%;
+}
+
+.ribbon-5-text a {
+	color: #DFDFDF;
+	font-weight: regular;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.ribbon-5-text a:hover {
+	color: #5DBCAD;
+}
+
+#ribbon-5-image {
+	padding: 0 100px 20px 0;
+	float: left;
+	clear:left;
+}
+
+#link-list {
+	font-size: 0.8em;
+	line-height: 140%;
+}
+
+
+/* INFORMATION ARCHITECTURE ICONS */
+
+#morville {
+	width: 709px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+#morville h2 {
+	line-height: 2.2em;
+}
+
+.morville-icon h2 {
+	display: block;
+}
+.morville-icon, .morville-hover {
+	-webkit-transition: 0.3s;
+ 	-moz-transition: 0.3s;
+  	-ms-transition: 0.3s;
+  	-o-transition: 0.3s;
+  	transition: 0.3s;
+}
+
+.morville-hover {
+	position: relative;
+	top: 0em;
+	z-index: 0;
+	margin-bottom: -0.3em;
+}
+
+.morville-icon:hover .morville-hover{
+	position: relative;
+	top: -3em;
+}
+
+.right-padding {
+	padding-right: 140px;
+	padding-left:0;
+}
+
+.morville-icon {
+	float: left;
+	width: 140px;
+	height: 200px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.icon {
+	position: relative;
+	z-index: 1;
+	background-color: #F4F4F4; 
+}
+
+.hover-text {
+	font-size: 0.9em !important;
+}
+
+
+
+/* SKILLS */
+
+.skill-row {
+/*	border-style: solid;
+	border-width: 1px;
+	text-align: justify;
+	display: inline-block;*/
+	line-height: 70px;
+	height:370px;
+}
+
+#justified-skills {
+	position: relative;
+    text-align: justify;
+    padding:0;
+    list-style-type: none;
+    height:0;
+}
+
+#justified-skills:after {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    line-height: 0;
+    content: '';
+}
+
+.inline-block { 
+	display: inline-block; 
+	padding:0;
+}
+
+.skill-end {
+	background-color: #C3E2E2;
+	padding: 15px;
+	font-weight: 600;
+	border-radius: 10px;
+	font-size: 1.35em;
+	margin: 0px;
+	text-align: center;
+}
+
+#link-jn {
+	text-decoration: none;
+	color: #B8CACE;
+}
+
+#ribbon-4 #justified-skills a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #00747a;
+	padding: 15px;
+	font-weight: 600;
+	border-radius: 10px;
+	font-size: 1.35em;
+	text-align: center;
+	white-space: pre;
+}
+
+#ribbon-4 #justified-skills a:hover {
+	background-color: #c64f40;
+}
+
+#copyright {
+	color:#fff;
+	background-color: #2A363B;
+	width: 100%;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-align: center;
+	padding-bottom: 30px;
+}
